@@ -1,6 +1,20 @@
 # Changelog
 
 
+## [v0.5.0](https://github.com/soybeanjs/colord/compare/v0.4.2...v0.5.0) (2026-04-06)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **rgb**: correct rgb string format by replacing commas with spaces &nbsp;-&nbsp; by @soybeanjs [<samp>(04fac)</samp>](https://github.com/soybeanjs/colord/commit/04face0)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(cebd9)</samp>](https://github.com/soybeanjs/colord/commit/cebd982)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.4.2](https://github.com/soybeanjs/colord/compare/v0.4.1...v0.4.2) (2026-02-07)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
