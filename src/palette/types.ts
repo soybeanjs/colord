@@ -9,10 +9,14 @@ export type PaletteColorLevel = 50 | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 8
 
 export type TailwindPaletteKey =
   | 'slate'
+  | 'mist'
   | 'gray'
   | 'zinc'
   | 'neutral'
   | 'stone'
+  | 'taupe'
+  | 'olive'
+  | 'mauve'
   | 'red'
   | 'orange'
   | 'amber'

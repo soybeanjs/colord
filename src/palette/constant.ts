@@ -19,6 +19,322 @@ export const simplePalette = {
 } as const satisfies SimplePalette;
 
 export const tailwindPalette: TailwindPalette = {
+  slate: {
+    '50': {
+      level: 50,
+      hex: '#f8fafc',
+      rgb: 'rgb(248 250 252)',
+      hsl: 'hsl(210 40% 98%)',
+      oklch: 'oklch(98% 0 248)'
+    },
+    '100': {
+      level: 100,
+      hex: '#f1f5f9',
+      rgb: 'rgb(241 245 249)',
+      hsl: 'hsl(210 40% 96.1%)',
+      oklch: 'oklch(97% 0.01 248)'
+    },
+    '200': {
+      level: 200,
+      hex: '#e2e8f0',
+      rgb: 'rgb(226 232 240)',
+      hsl: 'hsl(214.3 31.8% 91.4%)',
+      oklch: 'oklch(93% 0.01 256)'
+    },
+    '300': {
+      level: 300,
+      hex: '#cbd5e1',
+      rgb: 'rgb(203 213 225)',
+      hsl: 'hsl(212.7 26.8% 83.9%)',
+      oklch: 'oklch(87% 0.02 253)'
+    },
+    '400': {
+      level: 400,
+      hex: '#94a3b8',
+      rgb: 'rgb(148 163 184)',
+      hsl: 'hsl(215 20.2% 65.1%)',
+      oklch: 'oklch(71% 0.04 257)'
+    },
+    '500': {
+      level: 500,
+      hex: '#64748b',
+      rgb: 'rgb(100 116 139)',
+      hsl: 'hsl(215.4 16.3% 46.9%)',
+      oklch: 'oklch(55% 0.04 257)'
+    },
+    '600': {
+      level: 600,
+      hex: '#475569',
+      rgb: 'rgb(71 85 105)',
+      hsl: 'hsl(215.3 19.3% 34.5%)',
+      oklch: 'oklch(45% 0.04 257)'
+    },
+    '700': {
+      level: 700,
+      hex: '#334155',
+      rgb: 'rgb(51 65 85)',
+      hsl: 'hsl(215.3 25% 26.7%)',
+      oklch: 'oklch(37% 0.04 257)'
+    },
+    '800': {
+      level: 800,
+      hex: '#1e293b',
+      rgb: 'rgb(30 41 59)',
+      hsl: 'hsl(217.2 32.6% 17.5%)',
+      oklch: 'oklch(28% 0.04 260)'
+    },
+    '900': {
+      level: 900,
+      hex: '#0f172a',
+      rgb: 'rgb(15 23 42)',
+      hsl: 'hsl(222.2 47.4% 11.2%)',
+      oklch: 'oklch(21% 0.04 266)'
+    },
+    '950': {
+      level: 950,
+      hex: '#020617',
+      rgb: 'rgb(2 6 23)',
+      hsl: 'hsl(222.2 84% 4.9%)',
+      oklch: 'oklch(13% 0.04 265)'
+    }
+  },
+  mist: {
+    '50': {
+      level: 50,
+      hex: '#f9fafb',
+      rgb: 'rgb(249,250,251)',
+      hsl: 'hsl(189.3,20.3%,97.9%)',
+      oklch: 'oklch(0.98,0.00,210)'
+    },
+    '100': {
+      level: 100,
+      hex: '#f0f4f5',
+      rgb: 'rgb(240,244,245)',
+      hsl: 'hsl(189.4,21.6%,95.1%)',
+      oklch: 'oklch(0.96,0.01,210)'
+    },
+    '200': {
+      level: 200,
+      hex: '#dce5e6',
+      rgb: 'rgb(220,229,230)',
+      hsl: 'hsl(189.4,16.2%,88.4%)',
+      oklch: 'oklch(0.92,0.01,210)'
+    },
+    '300': {
+      level: 300,
+      hex: '#c1cfd2',
+      rgb: 'rgb(193,207,210)',
+      hsl: 'hsl(189.4,15.8%,79%)',
+      oklch: 'oklch(0.84,0.02,210)'
+    },
+    '400': {
+      level: 400,
+      hex: '#8da5a9',
+      rgb: 'rgb(141,165,169)',
+      hsl: 'hsl(189.3,14%,60.9%)',
+      oklch: 'oklch(0.70,0.03,210)'
+    },
+    '500': {
+      level: 500,
+      hex: '#648085',
+      rgb: 'rgb(100,128,133)',
+      hsl: 'hsl(189.3,14.2%,45.7%)',
+      oklch: 'oklch(0.58,0.03,210)'
+    },
+    '600': {
+      level: 600,
+      hex: '#4f676b',
+      rgb: 'rgb(79,103,107)',
+      hsl: 'hsl(189.3,15.1%,36.5%)',
+      oklch: 'oklch(0.49,0.03,210)'
+    },
+    '700': {
+      level: 700,
+      hex: '#3d5155',
+      rgb: 'rgb(61,81,85)',
+      hsl: 'hsl(189.3,15.9%,28.6%)',
+      oklch: 'oklch(0.42,0.03,210)'
+    },
+    '800': {
+      level: 800,
+      hex: '#2d3c3f',
+      rgb: 'rgb(45,60,63)',
+      hsl: 'hsl(189.3,17.2%,21.2%)',
+      oklch: 'oklch(0.34,0.02,210)'
+    },
+    '900': {
+      level: 900,
+      hex: '#1e2a2c',
+      rgb: 'rgb(30,42,44)',
+      hsl: 'hsl(189.3,19.2%,14.6%)',
+      oklch: 'oklch(0.28,0.02,210)'
+    },
+    '950': {
+      level: 950,
+      hex: '#0e1517',
+      rgb: 'rgb(14,21,23)',
+      hsl: 'hsl(189.3,25.3%,7.1%)',
+      oklch: 'oklch(0.19,0.01,210)'
+    }
+  },
+  gray: {
+    '50': {
+      level: 50,
+      hex: '#f9fafb',
+      rgb: 'rgb(249 250 251)',
+      hsl: 'hsl(210 20% 98%)',
+      oklch: 'oklch(98% 0 248)'
+    },
+    '100': {
+      level: 100,
+      hex: '#f3f4f6',
+      rgb: 'rgb(243 244 246)',
+      hsl: 'hsl(220 14.3% 95.9%)',
+      oklch: 'oklch(97% 0 265)'
+    },
+    '200': {
+      level: 200,
+      hex: '#e5e7eb',
+      rgb: 'rgb(229 231 235)',
+      hsl: 'hsl(220 13% 91%)',
+      oklch: 'oklch(93% 0.01 265)'
+    },
+    '300': {
+      level: 300,
+      hex: '#d1d5db',
+      rgb: 'rgb(209 213 219)',
+      hsl: 'hsl(216 12.2% 83.9%)',
+      oklch: 'oklch(87% 0.01 258)'
+    },
+    '400': {
+      level: 400,
+      hex: '#9ca3af',
+      rgb: 'rgb(156 163 175)',
+      hsl: 'hsl(217.9 10.6% 64.9%)',
+      oklch: 'oklch(71% 0.02 261)'
+    },
+    '500': {
+      level: 500,
+      hex: '#6b7280',
+      rgb: 'rgb(107 114 128)',
+      hsl: 'hsl(220 8.9% 46.1%)',
+      oklch: 'oklch(55% 0.02 264)'
+    },
+    '600': {
+      level: 600,
+      hex: '#4b5563',
+      rgb: 'rgb(75 85 99)',
+      hsl: 'hsl(215 13.8% 34.1%)',
+      oklch: 'oklch(45% 0.03 257)'
+    },
+    '700': {
+      level: 700,
+      hex: '#374151',
+      rgb: 'rgb(55 65 81)',
+      hsl: 'hsl(216.9 19.1% 26.7%)',
+      oklch: 'oklch(37% 0.03 260)'
+    },
+    '800': {
+      level: 800,
+      hex: '#1f2937',
+      rgb: 'rgb(31 41 55)',
+      hsl: 'hsl(215 27.9% 16.9%)',
+      oklch: 'oklch(28% 0.03 257)'
+    },
+    '900': {
+      level: 900,
+      hex: '#111827',
+      rgb: 'rgb(17 24 39)',
+      hsl: 'hsl(220.9 39.3% 11%)',
+      oklch: 'oklch(21% 0.03 265)'
+    },
+    '950': {
+      level: 950,
+      hex: '#030712',
+      rgb: 'rgb(3 7 18)',
+      hsl: 'hsl(224 71.4% 4.1%)',
+      oklch: 'oklch(13% 0.03 262)'
+    }
+  },
+  zinc: {
+    '50': {
+      level: 50,
+      hex: '#fafafa',
+      rgb: 'rgb(250 250 250)',
+      hsl: 'hsl(0 0% 98%)',
+      oklch: 'oklch(99% 0 360)'
+    },
+    '100': {
+      level: 100,
+      hex: '#f4f4f5',
+      rgb: 'rgb(244 244 245)',
+      hsl: 'hsl(240 4.8% 95.9%)',
+      oklch: 'oklch(97% 0 286)'
+    },
+    '200': {
+      level: 200,
+      hex: '#e4e4e7',
+      rgb: 'rgb(228 228 231)',
+      hsl: 'hsl(240 5.9% 90%)',
+      oklch: 'oklch(92% 0 286)'
+    },
+    '300': {
+      level: 300,
+      hex: '#d4d4d8',
+      rgb: 'rgb(212 212 216)',
+      hsl: 'hsl(240 4.9% 83.9%)',
+      oklch: 'oklch(87% 0.01 286)'
+    },
+    '400': {
+      level: 400,
+      hex: '#a1a1aa',
+      rgb: 'rgb(161 161 170)',
+      hsl: 'hsl(240 5% 64.9%)',
+      oklch: 'oklch(71% 0.01 286)'
+    },
+    '500': {
+      level: 500,
+      hex: '#71717a',
+      rgb: 'rgb(113 113 122)',
+      hsl: 'hsl(240 3.8% 46.1%)',
+      oklch: 'oklch(55% 0.01 286)'
+    },
+    '600': {
+      level: 600,
+      hex: '#52525b',
+      rgb: 'rgb(82 82 91)',
+      hsl: 'hsl(240 5.2% 33.9%)',
+      oklch: 'oklch(44% 0.01 286)'
+    },
+    '700': {
+      level: 700,
+      hex: '#3f3f46',
+      rgb: 'rgb(63 63 70)',
+      hsl: 'hsl(240 5.3% 26.1%)',
+      oklch: 'oklch(37% 0.01 286)'
+    },
+    '800': {
+      level: 800,
+      hex: '#27272a',
+      rgb: 'rgb(39 39 42)',
+      hsl: 'hsl(240 3.7% 15.9%)',
+      oklch: 'oklch(27% 0.01 286)'
+    },
+    '900': {
+      level: 900,
+      hex: '#18181b',
+      rgb: 'rgb(24 24 27)',
+      hsl: 'hsl(240 5.9% 10%)',
+      oklch: 'oklch(21% 0.01 286)'
+    },
+    '950': {
+      level: 950,
+      hex: '#09090b',
+      rgb: 'rgb(9 9 11)',
+      hsl: 'hsl(240 10% 3.9%)',
+      oklch: 'oklch(14% 0 286)'
+    }
+  },
   neutral: {
     '50': {
       level: 50,
@@ -177,241 +493,241 @@ export const tailwindPalette: TailwindPalette = {
       oklch: 'oklch(15% 0 49)'
     }
   },
-  zinc: {
+  taupe: {
     '50': {
       level: 50,
-      hex: '#fafafa',
-      rgb: 'rgb(250 250 250)',
-      hsl: 'hsl(0 0% 98%)',
-      oklch: 'oklch(99% 0 360)'
+      hex: '#fbfaf9',
+      rgb: 'rgb(251,250,249)',
+      hsl: 'hsl(34,21.3%,97.9%)',
+      oklch: 'oklch(0.98,0.00,75)'
     },
     '100': {
       level: 100,
-      hex: '#f4f4f5',
-      rgb: 'rgb(244 244 245)',
-      hsl: 'hsl(240 4.8% 95.9%)',
-      oklch: 'oklch(97% 0 286)'
+      hex: '#f5f3f0',
+      rgb: 'rgb(245,243,240)',
+      hsl: 'hsl(34,22.7%,95.1%)',
+      oklch: 'oklch(0.96,0.01,75)'
     },
     '200': {
       level: 200,
-      hex: '#e4e4e7',
-      rgb: 'rgb(228 228 231)',
-      hsl: 'hsl(240 5.9% 90%)',
-      oklch: 'oklch(92% 0 286)'
+      hex: '#e7e2dc',
+      rgb: 'rgb(231,226,220)',
+      hsl: 'hsl(34.1,18.7%,88.4%)',
+      oklch: 'oklch(0.92,0.01,75)'
     },
     '300': {
       level: 300,
-      hex: '#d4d4d8',
-      rgb: 'rgb(212 212 216)',
-      hsl: 'hsl(240 4.9% 83.9%)',
-      oklch: 'oklch(87% 0.01 286)'
+      hex: '#d3cbc0',
+      rgb: 'rgb(211,203,192)',
+      hsl: 'hsl(34.1,18.3%,79%)',
+      oklch: 'oklch(0.84,0.02,75)'
     },
     '400': {
       level: 400,
-      hex: '#a1a1aa',
-      rgb: 'rgb(161 161 170)',
-      hsl: 'hsl(240 5% 64.9%)',
-      oklch: 'oklch(71% 0.01 286)'
+      hex: '#aa9e8d',
+      rgb: 'rgb(170,158,141)',
+      hsl: 'hsl(34.2,14.8%,61.1%)',
+      oklch: 'oklch(0.70,0.03,75)'
     },
     '500': {
       level: 500,
-      hex: '#71717a',
-      rgb: 'rgb(113 113 122)',
-      hsl: 'hsl(240 3.8% 46.1%)',
-      oklch: 'oklch(55% 0.01 286)'
+      hex: '#867865',
+      rgb: 'rgb(134,120,101)',
+      hsl: 'hsl(34.3,14.1%,46.1%)',
+      oklch: 'oklch(0.58,0.03,75)'
     },
     '600': {
       level: 600,
-      hex: '#52525b',
-      rgb: 'rgb(82 82 91)',
-      hsl: 'hsl(240 5.2% 33.9%)',
-      oklch: 'oklch(44% 0.01 286)'
+      hex: '#6c6050',
+      rgb: 'rgb(108,96,80)',
+      hsl: 'hsl(34.3,14.9%,36.8%)',
+      oklch: 'oklch(0.49,0.03,75)'
     },
     '700': {
       level: 700,
-      hex: '#3f3f46',
-      rgb: 'rgb(63 63 70)',
-      hsl: 'hsl(240 5.3% 26.1%)',
-      oklch: 'oklch(37% 0.01 286)'
+      hex: '#554b3e',
+      rgb: 'rgb(85,75,62)',
+      hsl: 'hsl(34.3,15.7%,28.9%)',
+      oklch: 'oklch(0.42,0.03,75)'
     },
     '800': {
       level: 800,
-      hex: '#27272a',
-      rgb: 'rgb(39 39 42)',
-      hsl: 'hsl(240 3.7% 15.9%)',
-      oklch: 'oklch(27% 0.01 286)'
+      hex: '#40382d',
+      rgb: 'rgb(64,56,45)',
+      hsl: 'hsl(34.3,17%,21.4%)',
+      oklch: 'oklch(0.34,0.02,75)'
     },
     '900': {
       level: 900,
-      hex: '#18181b',
-      rgb: 'rgb(24 24 27)',
-      hsl: 'hsl(240 5.9% 10%)',
-      oklch: 'oklch(21% 0.01 286)'
+      hex: '#2c271f',
+      rgb: 'rgb(44,39,31)',
+      hsl: 'hsl(34.3,17.7%,14.8%)',
+      oklch: 'oklch(0.28,0.02,75)'
     },
     '950': {
       level: 950,
-      hex: '#09090b',
-      rgb: 'rgb(9 9 11)',
-      hsl: 'hsl(240 10% 3.9%)',
-      oklch: 'oklch(14% 0 286)'
+      hex: '#17130e',
+      rgb: 'rgb(23,19,14)',
+      hsl: 'hsl(34.4,24.8%,7.2%)',
+      oklch: 'oklch(0.19,0.01,75)'
     }
   },
-  slate: {
+  olive: {
     '50': {
       level: 50,
-      hex: '#f8fafc',
-      rgb: 'rgb(248 250 252)',
-      hsl: 'hsl(210 40% 98%)',
-      oklch: 'oklch(98% 0 248)'
+      hex: '#f9faf9',
+      rgb: 'rgb(249,250,249)',
+      hsl: 'hsl(136.8,13.4%,97.9%)',
+      oklch: 'oklch(0.98,0.00,155)'
     },
     '100': {
       level: 100,
-      hex: '#f1f5f9',
-      rgb: 'rgb(241 245 249)',
-      hsl: 'hsl(210 40% 96.1%)',
-      oklch: 'oklch(97% 0.01 248)'
+      hex: '#f1f4f2',
+      rgb: 'rgb(241,244,242)',
+      hsl: 'hsl(136.9,14.2%,95.2%)',
+      oklch: 'oklch(0.96,0.01,155)'
     },
     '200': {
       level: 200,
-      hex: '#e2e8f0',
-      rgb: 'rgb(226 232 240)',
-      hsl: 'hsl(214.3 31.8% 91.4%)',
-      oklch: 'oklch(93% 0.01 256)'
+      hex: '#dee5e0',
+      rgb: 'rgb(222,229,224)',
+      hsl: 'hsl(137,10.6%,88.5%)',
+      oklch: 'oklch(0.92,0.01,155)'
     },
     '300': {
       level: 300,
-      hex: '#cbd5e1',
-      rgb: 'rgb(203 213 225)',
-      hsl: 'hsl(212.7 26.8% 83.9%)',
-      oklch: 'oklch(87% 0.02 253)'
+      hex: '#c4cfc8',
+      rgb: 'rgb(196,207,200)',
+      hsl: 'hsl(137.2,10.3%,79.2%)',
+      oklch: 'oklch(0.84,0.02,155)'
     },
     '400': {
       level: 400,
-      hex: '#94a3b8',
-      rgb: 'rgb(148 163 184)',
-      hsl: 'hsl(215 20.2% 65.1%)',
-      oklch: 'oklch(71% 0.04 257)'
+      hex: '#94a599',
+      rgb: 'rgb(148,165,153)',
+      hsl: 'hsl(137.8,8.7%,61.4%)',
+      oklch: 'oklch(0.70,0.03,155)'
     },
     '500': {
       level: 500,
-      hex: '#64748b',
-      rgb: 'rgb(100 116 139)',
-      hsl: 'hsl(215.4 16.3% 46.9%)',
-      oklch: 'oklch(55% 0.04 257)'
+      hex: '#6c8072',
+      rgb: 'rgb(108,128,114)',
+      hsl: 'hsl(138.4,8.6%,46.3%)',
+      oklch: 'oklch(0.58,0.03,155)'
     },
     '600': {
       level: 600,
-      hex: '#475569',
-      rgb: 'rgb(71 85 105)',
-      hsl: 'hsl(215.3 19.3% 34.5%)',
-      oklch: 'oklch(45% 0.04 257)'
+      hex: '#56675b',
+      rgb: 'rgb(86,103,91)',
+      hsl: 'hsl(138.4,9.1%,37%)',
+      oklch: 'oklch(0.49,0.03,155)'
     },
     '700': {
       level: 700,
-      hex: '#334155',
-      rgb: 'rgb(51 65 85)',
-      hsl: 'hsl(215.3 25% 26.7%)',
-      oklch: 'oklch(37% 0.04 257)'
+      hex: '#435147',
+      rgb: 'rgb(67,81,71)',
+      hsl: 'hsl(138.4,9.5%,29.1%)',
+      oklch: 'oklch(0.42,0.02,155)'
     },
     '800': {
       level: 800,
-      hex: '#1e293b',
-      rgb: 'rgb(30 41 59)',
-      hsl: 'hsl(217.2 32.6% 17.5%)',
-      oklch: 'oklch(28% 0.04 260)'
+      hex: '#313c35',
+      rgb: 'rgb(49,60,53)',
+      hsl: 'hsl(138.4,10.2%,21.5%)',
+      oklch: 'oklch(0.34,0.02,155)'
     },
     '900': {
       level: 900,
-      hex: '#0f172a',
-      rgb: 'rgb(15 23 42)',
-      hsl: 'hsl(222.2 47.4% 11.2%)',
-      oklch: 'oklch(21% 0.04 266)'
+      hex: '#222a24',
+      rgb: 'rgb(34,42,36)',
+      hsl: 'hsl(138.5,11.2%,14.8%)',
+      oklch: 'oklch(0.28,0.02,155)'
     },
     '950': {
       level: 950,
-      hex: '#020617',
-      rgb: 'rgb(2 6 23)',
-      hsl: 'hsl(222.2 84% 4.9%)',
-      oklch: 'oklch(13% 0.04 265)'
+      hex: '#101512',
+      rgb: 'rgb(16,21,18)',
+      hsl: 'hsl(138.4,14.2%,7.3%)',
+      oklch: 'oklch(0.19,0.01,155)'
     }
   },
-  gray: {
+  mauve: {
     '50': {
       level: 50,
-      hex: '#f9fafb',
-      rgb: 'rgb(249 250 251)',
-      hsl: 'hsl(210 20% 98%)',
-      oklch: 'oklch(98% 0 248)'
+      hex: '#fafafb',
+      rgb: 'rgb(250,250,251)',
+      hsl: 'hsl(272.4,15%,98.2%)',
+      oklch: 'oklch(0.98,0.00,310)'
     },
     '100': {
       level: 100,
-      hex: '#f3f4f6',
-      rgb: 'rgb(243 244 246)',
-      hsl: 'hsl(220 14.3% 95.9%)',
-      oklch: 'oklch(97% 0 265)'
+      hex: '#f4f2f6',
+      rgb: 'rgb(244,242,246)',
+      hsl: 'hsl(272.4,16.1%,95.8%)',
+      oklch: 'oklch(0.96,0.01,310)'
     },
     '200': {
       level: 200,
-      hex: '#e5e7eb',
-      rgb: 'rgb(229 231 235)',
-      hsl: 'hsl(220 13% 91%)',
-      oklch: 'oklch(93% 0.01 265)'
+      hex: '#e5e1e8',
+      rgb: 'rgb(229,225,232)',
+      hsl: 'hsl(272.5,13%,89.6%)',
+      oklch: 'oklch(0.92,0.01,310)'
     },
     '300': {
       level: 300,
-      hex: '#d1d5db',
-      rgb: 'rgb(209 213 219)',
-      hsl: 'hsl(216 12.2% 83.9%)',
-      oklch: 'oklch(87% 0.01 258)'
+      hex: '#d0c9d5',
+      rgb: 'rgb(208,201,213)',
+      hsl: 'hsl(272.6,12.6%,81.2%)',
+      oklch: 'oklch(0.84,0.02,310)'
     },
     '400': {
       level: 400,
-      hex: '#9ca3af',
-      rgb: 'rgb(156 163 175)',
-      hsl: 'hsl(217.9 10.6% 64.9%)',
-      oklch: 'oklch(71% 0.02 261)'
+      hex: '#a69bae',
+      rgb: 'rgb(166,155,174)',
+      hsl: 'hsl(272.9,10.6%,64.6%)',
+      oklch: 'oklch(0.70,0.03,310)'
     },
     '500': {
       level: 500,
-      hex: '#6b7280',
-      rgb: 'rgb(107 114 128)',
-      hsl: 'hsl(220 8.9% 46.1%)',
-      oklch: 'oklch(55% 0.02 264)'
+      hex: '#81758b',
+      rgb: 'rgb(129,117,139)',
+      hsl: 'hsl(273.2,8.6%,50.1%)',
+      oklch: 'oklch(0.58,0.04,310)'
     },
     '600': {
       level: 600,
-      hex: '#4b5563',
-      rgb: 'rgb(75 85 99)',
-      hsl: 'hsl(215 13.8% 34.1%)',
-      oklch: 'oklch(45% 0.03 257)'
+      hex: '#675d70',
+      rgb: 'rgb(103,93,112)',
+      hsl: 'hsl(273.2,9.2%,40.2%)',
+      oklch: 'oklch(0.49,0.03,310)'
     },
     '700': {
       level: 700,
-      hex: '#374151',
-      rgb: 'rgb(55 65 81)',
-      hsl: 'hsl(216.9 19.1% 26.7%)',
-      oklch: 'oklch(37% 0.03 260)'
+      hex: '#524959',
+      rgb: 'rgb(82,73,89)',
+      hsl: 'hsl(273.3,9.7%,31.7%)',
+      oklch: 'oklch(0.42,0.03,310)'
     },
     '800': {
       level: 800,
-      hex: '#1f2937',
-      rgb: 'rgb(31 41 55)',
-      hsl: 'hsl(215 27.9% 16.9%)',
-      oklch: 'oklch(28% 0.03 257)'
+      hex: '#3d3642',
+      rgb: 'rgb(61,54,66)',
+      hsl: 'hsl(273.3,10.2%,23.6%)',
+      oklch: 'oklch(0.34,0.02,310)'
     },
     '900': {
       level: 900,
-      hex: '#111827',
-      rgb: 'rgb(17 24 39)',
-      hsl: 'hsl(220.9 39.3% 11%)',
-      oklch: 'oklch(21% 0.03 265)'
+      hex: '#2a252e',
+      rgb: 'rgb(42,37,46)',
+      hsl: 'hsl(273.3,10.9%,16.4%)',
+      oklch: 'oklch(0.28,0.02,310)'
     },
     '950': {
       level: 950,
-      hex: '#030712',
-      rgb: 'rgb(3 7 18)',
-      hsl: 'hsl(224 71.4% 4.1%)',
-      oklch: 'oklch(13% 0.03 262)'
+      hex: '#161218',
+      rgb: 'rgb(22,18,24)',
+      hsl: 'hsl(273.3,14.1%,8.3%)',
+      oklch: 'oklch(0.19,0.01,310)'
     }
   },
   red: {
