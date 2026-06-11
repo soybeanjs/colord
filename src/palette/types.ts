@@ -7,6 +7,9 @@ import type { HslColor, OklchColor, RgbColor } from '../types';
  */
 export type PaletteColorLevel = 50 | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | 950;
 
+/**
+ * the tailwind palette key
+ */
 export type TailwindPaletteKey =
   | 'slate'
   | 'mist'
@@ -35,8 +38,26 @@ export type TailwindPaletteKey =
   | 'pink'
   | 'rose';
 
+/**
+ * the tailwind neutral palette key
+ *
+ * the neutral palette is used for the neutral colors, which are usually used for the background and border colors
+ */
+export type TailwindNeutralPaletteKey = Extract<
+  TailwindPaletteKey,
+  'slate' | 'mist' | 'gray' | 'zinc' | 'neutral' | 'stone' | 'taupe' | 'olive' | 'mauve'
+>;
+
+/**
+ * the tailwind color palette level key
+ *
+ * the color palette level key is used for the color palette level, which is usually used for the color classes
+ */
 export type TailwindPaletteLevelColorKey = `${TailwindPaletteKey}.${PaletteColorLevel}`;
 
+/**
+ * the palette color item
+ */
 export interface PaletteColorItem {
   level: PaletteColorLevel;
   hex: string;
