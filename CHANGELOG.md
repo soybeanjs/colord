@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.6.0](https://github.com/soybeanjs/colord/compare/v0.5.0...v0.6.0) (2026-06-11)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **palette**: add new colors to tailwindPalette and update types &nbsp;-&nbsp; by @soybeanjs [<samp>(024b1)</samp>](https://github.com/soybeanjs/colord/commit/024b163)
+- **projects**: update deps, remove eslint config, add oxc config, add vite-plus &nbsp;-&nbsp; by @soybeanjs [<samp>(684ef)</samp>](https://github.com/soybeanjs/colord/commit/684efe5)
+- **types**: add Tailwind neutral palette key and color level key types &nbsp;-&nbsp; by @soybeanjs [<samp>(aa61e)</samp>](https://github.com/soybeanjs/colord/commit/aa61ed9)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.5.0](https://github.com/soybeanjs/colord/compare/v0.4.2...v0.5.0) (2026-04-06)
 
 ### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
