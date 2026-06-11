@@ -1,5 +1,15 @@
 # Changelog
 
+## [v0.6.1](https://github.com/soybeanjs/colord/compare/v0.6.0...v0.6.1) (2026-06-11)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **types**: add TailwindNeutralPaletteKey to exported types &nbsp;-&nbsp; by @soybeanjs [<samp>(1929d)</samp>](https://github.com/soybeanjs/colord/commit/1929db6)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.6.0](https://github.com/soybeanjs/colord/compare/v0.5.0...v0.6.0) (2026-06-11)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
