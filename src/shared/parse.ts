@@ -1,8 +1,8 @@
 import { parseHex } from '../models/hex';
-import { parseRgb, parseRgbString } from '../models/rgb';
 import { parseHsl, parseHslString } from '../models/hsl';
 import { parseHsv } from '../models/hsv';
 import { parseOklch, parseOklchString } from '../models/oklch';
+import { parseRgb, parseRgbString } from '../models/rgb';
 import type { Format, Input, InputObject, ParseResult, Parser, Parsers } from '../types';
 
 // The built-in input parsing functions.

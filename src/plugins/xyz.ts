@@ -1,6 +1,6 @@
-import type { XyzColor } from '../types';
 import type { Plugin } from '../extend';
 import { parseXyz, parseXyzBySource, rgbToXyz, roundXyz } from '../models/xyz';
+import type { XyzColor } from '../types';
 
 declare module '../colord' {
   interface Colord {

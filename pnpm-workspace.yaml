@@ -1,0 +1,14 @@
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite-plus: ^0.1.24
+overrides:
+  oxfmt: '^0.51.0'
+  oxlint: '^1.66.0'
+shamefullyHoist: true
+allowBuilds:
+  esbuild: false
+  simple-git-hooks: false
+  unrs-resolver: false
+minimumReleaseAgeExclude:
+  - '@types/node@25.9.3'

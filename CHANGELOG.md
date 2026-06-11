@@ -1,6 +1,5 @@
 # Changelog
 
-
 ## [v0.5.0](https://github.com/soybeanjs/colord/compare/v0.4.2...v0.5.0) (2026-04-06)
 
 ### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
@@ -254,4 +253,3 @@
 ### &nbsp;&nbsp;&nbsp;❤️ Contributors
 
 [![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
-

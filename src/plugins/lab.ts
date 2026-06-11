@@ -1,4 +1,5 @@
-import type { AnyColor, LabColor } from '../types';
+import { getDeltaE2000 } from '../shared/get';
+import { clamp, round } from '../utils';
 import type { Plugin } from '../extend';
 import {
   parseLab,
@@ -9,8 +10,7 @@ import {
   roundLab,
   toLabStringBySource
 } from '../models/lab';
-import { getDeltaE2000 } from '../shared/get';
-import { clamp, round } from '../utils';
+import type { AnyColor, LabColor } from '../types';
 
 declare module '../colord' {
   interface Colord {

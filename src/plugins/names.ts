@@ -1,5 +1,5 @@
-import type { ParseFunction, RgbColor } from '../types';
 import type { Plugin } from '../extend';
+import type { ParseFunction, RgbColor } from '../types';
 
 interface ConvertOptions {
   closest?: boolean;

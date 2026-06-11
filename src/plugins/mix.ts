@@ -1,7 +1,7 @@
-import type { AnyColor } from '../types';
-import type { Plugin } from '../extend';
 import { mix as mixColor } from '../shared/manipulate';
 import type { Colord as ColordInstance } from '../colord';
+import type { Plugin } from '../extend';
+import type { AnyColor } from '../types';
 
 declare module '../colord' {
   interface Colord {

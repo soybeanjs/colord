@@ -1,6 +1,6 @@
-import type { HwbColor } from '../types';
 import type { Plugin } from '../extend';
 import { parseHwb, parseHwbString, rgbToHwb, rgbToHwbString, roundHwb } from '../models/hwb';
+import type { HwbColor } from '../types';
 
 declare module '../colord' {
   interface Colord {

@@ -1,6 +1,6 @@
-import type { CmykColor } from '../types';
 import type { Plugin } from '../extend';
 import { parseCmyk, parseCmykString, rgbToCmyk, rgbToCmykString, roundCmyk } from '../models/cmyk';
+import type { CmykColor } from '../types';
 
 declare module '../colord' {
   interface Colord {

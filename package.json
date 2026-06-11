@@ -1,25 +1,27 @@
 {
   "name": "@soybeanjs/colord",
-  "type": "module",
   "version": "0.5.0",
-  "packageManager": "pnpm@10.33.0",
   "description": "A tiny yet powerful tool for high-performance color manipulations and conversions",
+  "homepage": "https://github.com/soybeanjs/colord",
+  "bugs": {
+    "url": "https://github.com/soybeanjs/colord/issues"
+  },
+  "license": "MIT",
   "author": {
     "name": "Soybean",
     "email": "soybeanjs@outlook.com",
     "url": "https://github.com/soybeanjs"
   },
-  "license": "MIT",
-  "homepage": "https://github.com/soybeanjs/colord",
   "repository": {
     "url": "https://github.com/soybeanjs/colord.git"
   },
-  "bugs": {
-    "url": "https://github.com/soybeanjs/colord/issues"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -37,38 +39,25 @@
       "require": "./dist/plugins/*.js"
     }
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
-    "build": "tsdown",
-    "cleanup": "soy cleanup",
+    "build": "vp pack",
     "commit": "soy git-commit",
-    "dev": "tsup --watch",
-    "lint": "eslint . --fix",
-    "prepare": "simple-git-hooks",
+    "fmt": "vp fmt",
+    "lint": "vp lint",
     "publish-pkg": "pnpm publish --access public",
     "release": "soy release",
     "typecheck": "tsc --noEmit --skipLibCheck",
-    "update-pkg": "soy ncu"
+    "upkg": "soy ncu"
   },
   "devDependencies": {
-    "@soybeanjs/cli": "1.7.1",
-    "@soybeanjs/eslint-config": "1.7.5",
-    "@types/node": "25.5.2",
-    "eslint": "10.2.0",
-    "lint-staged": "16.4.0",
-    "simple-git-hooks": "2.13.1",
-    "tsdown": "0.21.7",
-    "tsx": "4.21.0",
-    "typescript": "6.0.2"
+    "@soybeanjs/cli": "1.7.2",
+    "@soybeanjs/oxc-config": "^0.2.3",
+    "@types/node": "25.9.3",
+    "typescript": "6.0.3",
+    "vite-plus": "catalog:"
   },
-  "simple-git-hooks": {
-    "commit-msg": "pnpm soy git-commit-verify",
-    "pre-commit": "pnpm typecheck && pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": "eslint --fix"
-  }
+  "packageManager": "pnpm@11.5.3"
 }

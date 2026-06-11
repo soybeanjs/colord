@@ -1,11 +1,11 @@
 import { ALPHA_PRECISION } from './constants';
+import { changeAlpha, getBrightness, invert, lighten, parse, saturate } from './shared';
+import { round } from './utils';
 import { rgbToHex } from './models/hex';
-import { rgbToRgbString, roundRgb } from './models/rgb';
 import { rgbToHsl, rgbToHslString, roundHsl } from './models/hsl';
 import { rgbToHsv, roundHsv } from './models/hsv';
 import { parseOklchBySource, rgbToOklch, rgbToOklchString, roundOklch, toOklchStringBySource } from './models/oklch';
-import { changeAlpha, getBrightness, invert, lighten, parse, saturate } from './shared';
-import { round } from './utils';
+import { rgbToRgbString, roundRgb } from './models/rgb';
 import type { AnyColor, HslColor, HsvColor, Input, InputSource, OklchColor, RgbColor } from './types';
 
 /**

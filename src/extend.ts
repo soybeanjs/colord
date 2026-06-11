@@ -1,6 +1,6 @@
-import type { Parsers } from './types';
-import { Colord } from './colord';
 import { parsers } from './shared/parse';
+import { Colord } from './colord';
+import type { Parsers } from './types';
 
 export type Plugin = (ColordClass: typeof Colord, parsers: Parsers) => void;
 

@@ -4,7 +4,6 @@
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "lib": ["DOM", "ESNext"],
-    "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
@@ -17,7 +16,6 @@
     "noUnusedLocals": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "outDir": "./dist",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

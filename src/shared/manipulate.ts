@@ -1,6 +1,6 @@
+import { clamp } from '../utils';
 import { rgbToHsl } from '../models/hsl';
 import { clampLab, labToRgb, rgbToLab } from '../models/lab';
-import { clamp } from '../utils';
 import type { HslColor, RgbColor } from '../types';
 
 export const changeAlpha = (rgb: RgbColor, alpha: number): RgbColor => ({

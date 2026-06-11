@@ -1,4 +1,3 @@
-import type { LchColor } from '../types';
 import type { Plugin } from '../extend';
 import {
   parseLch,
@@ -9,6 +8,7 @@ import {
   roundLch,
   toLchStringBySource
 } from '../models/lch';
+import type { LchColor } from '../types';
 
 declare module '../colord' {
   interface Colord {

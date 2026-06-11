@@ -1,8 +1,8 @@
 import { ALPHA_PRECISION, D50, M_D50_TO_D65, M_D65_TO_D50 } from '../constants';
 import { clamp, isPresent, mul3x3, parseAlpha, round } from '../utils';
 import type { InputObject, InputSource, LabColor, RgbColor, XyzColor } from '../types';
-import { rgbToXyz, xyzToRgb } from './xyz';
 import { clampRgb } from './rgb';
+import { rgbToXyz, xyzToRgb } from './xyz';
 
 const EPSILON = 216 / 24389; // 0.008856
 const KAPPA = 24389 / 27; // 903.3

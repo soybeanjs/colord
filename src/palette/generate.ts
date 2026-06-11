@@ -1,5 +1,5 @@
-import { colord } from '../colord';
 import { keysOf } from '../shared';
+import { colord } from '../colord';
 import type { AnyColor } from '../types';
 import type { OutputColorMap, OutputFormat, PaletteColorItem, PaletteColorLevel } from './types';
 

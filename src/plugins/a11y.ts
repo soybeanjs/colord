@@ -1,7 +1,7 @@
-import type { AnyColor } from '../types';
-import type { Plugin } from '../extend';
 import { getContrast, getLuminance } from '../shared/get';
 import { floor, round } from '../utils';
+import type { Plugin } from '../extend';
+import type { AnyColor } from '../types';
 
 // https://webaim.org/resources/contrastchecker/
 interface ReadabilityOptions {

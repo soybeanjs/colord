@@ -1,4 +1,3 @@
-import type { OklabColor } from '../types';
 import type { Plugin } from '../extend';
 import {
   parseOklab,
@@ -9,6 +8,7 @@ import {
   roundOklab,
   toOklabStringBySource
 } from '../models/oklab';
+import type { OklabColor } from '../types';
 
 declare module '../colord' {
   interface Colord {

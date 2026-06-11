@@ -1,6 +1,6 @@
 # @soybeanjs/colord
 
-  <strong>Colord</strong> is a tiny yet powerful tool for high-performance color manipulations and conversions. fork from [colord](https://github.com/omgovich/colord)
+<strong>Colord</strong> is a tiny yet powerful tool for high-performance color manipulations and conversions. fork from [colord](https://github.com/omgovich/colord)
 
 ## Features
 
@@ -33,9 +33,9 @@ pnpm i @soybeanjs/colord
 ```ts
 import { colord } from '@soybeanjs/colord';
 
-colord("#ff0000").grayscale().alpha(0.25).toRgbString(); // "rgba(128, 128, 128, 0.25)"
-colord("rgb(192, 192, 192)").isLight(); // true
-colord("hsl(0, 50%, 50%)").darken(0.25).toHex(); // "#602020"
+colord('#ff0000').grayscale().alpha(0.25).toRgbString(); // "rgba(128, 128, 128, 0.25)"
+colord('rgb(192, 192, 192)').isLight(); // true
+colord('hsl(0, 50%, 50%)').darken(0.25).toHex(); // "#602020"
 colord({ r: 128, g: 128, b: 128, alpha: 0.25 }).toRgbString(); // "rgba(128, 128, 128, 0.25)"
 colord('hsl(210.003, 34.547%, 98.004%)').toOklchString(); // 'oklch(98.4% 0.003 247.858)'
 ```
@@ -64,7 +64,6 @@ generateNearestPalette('red'); // find the nearest color in the palette of the c
 - LAB objects ([via plugin](#plugins))
 - XYZ objects ([via plugin](#plugins))
 - OKLAB objects ([via plugin](#plugins))
-
 
 ## More API
 

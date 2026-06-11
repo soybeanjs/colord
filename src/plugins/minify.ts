@@ -1,6 +1,6 @@
+import { round } from '../utils';
 import type { Colord as ColordInstance } from '../colord';
 import type { Plugin } from '../extend';
-import { round } from '../utils';
 
 interface MinificationOptions {
   hex?: boolean;

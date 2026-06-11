@@ -1,7 +1,7 @@
+import { keysOf } from '../shared';
+import { labPlugin } from '../plugins/lab';
 import { colord } from '../colord';
 import { extend } from '../extend';
-import { labPlugin } from '../plugins/lab';
-import { keysOf } from '../shared';
 import type { AnyColor } from '../types';
 import { tailwindPalette } from './constant';
 import { formatOutput, getPaletteColorByFormat } from './generate';
