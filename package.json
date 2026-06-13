@@ -1,6 +1,6 @@
 {
   "name": "@soybeanjs/colord",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "A tiny yet powerful tool for high-performance color manipulations and conversions",
   "homepage": "https://github.com/soybeanjs/colord",
   "bugs": {

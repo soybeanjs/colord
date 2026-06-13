@@ -1,5 +1,19 @@
 # Changelog
 
+## [v0.6.2](https://github.com/soybeanjs/colord/compare/v0.6.1...v0.6.2) (2026-06-13)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **palette**: update RGB and HSL formatting in tailwindPalette &nbsp;-&nbsp; by @soybeanjs [<samp>(793e6)</samp>](https://github.com/soybeanjs/colord/commit/793e611)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **package**: update package manager to pnpm@11.6.0 &nbsp;-&nbsp; by @soybeanjs [<samp>(62d86)</samp>](https://github.com/soybeanjs/colord/commit/62d86af)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.6.1](https://github.com/soybeanjs/colord/compare/v0.6.0...v0.6.1) (2026-06-11)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
