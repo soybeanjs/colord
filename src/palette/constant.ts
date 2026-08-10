@@ -1,4 +1,12 @@
-import type { SimplePalette, TailwindPalette } from './types';
+import type {
+  PaletteColorLevel,
+  SimplePalette,
+  TailwindPalette,
+  TailwindPaletteKey,
+  TailwindNeutralPaletteKey
+} from './types';
+
+export const paletteColorLevels: PaletteColorLevel[] = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950];
 
 export const simplePalette = {
   inherit: 'inherit',
@@ -2074,3 +2082,17 @@ export const tailwindPalette: TailwindPalette = {
     }
   }
 };
+
+export const tailwindPaletteKeys = Object.keys(tailwindPalette) as TailwindPaletteKey[];
+
+export const tailwindNeutralPaletteKeys: TailwindNeutralPaletteKey[] = [
+  'slate',
+  'mist',
+  'gray',
+  'zinc',
+  'neutral',
+  'stone',
+  'taupe',
+  'olive',
+  'mauve'
+];
