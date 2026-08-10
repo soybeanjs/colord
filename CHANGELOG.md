@@ -1,5 +1,19 @@
 # Changelog
 
+## [v0.7.0](https://github.com/soybeanjs/colord/compare/v0.6.2...v0.7.0) (2026-08-10)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: fix generatePalette algorithm &nbsp;-&nbsp; by @soybeanjs [<samp>(12bb4)</samp>](https://github.com/soybeanjs/colord/commit/12bb4d9)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(a5e38)</samp>](https://github.com/soybeanjs/colord/commit/a5e3845)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.6.2](https://github.com/soybeanjs/colord/compare/v0.6.1...v0.6.2) (2026-06-13)
 
 ### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
