@@ -18,29 +18,17 @@ const paletteScales: Record<PaletteColorLevel, { l: number; c: number }> = {
 };
 
 /**
- * the gray colors use a fixed target lightness to ensure the light colors are sufficiently light
- */
-const lightnessMap: Record<number, number> = {
-  50: 0.985,
-  100: 0.968,
-  200: 0.924,
-  300: 0.87,
-  400: 0.707
-};
-
-/**
- * the gray colors use a fixed target lightness to ensure the dark colors are sufficiently dark
- */
-const darkLightnessMap: Record<number, number> = {
-  600: 0.802 * 0.556,
-  700: 0.672 * 0.556,
-  800: 0.495 * 0.556,
-  900: 0.379 * 0.556,
-  950: 0.25 * 0.556
-};
-
-/**
  * generate the palette
+ *
+ * the input color is treated as the main color (level 500), and the other levels are
+ * derived relative to it:
+ * - the light colors (50-400) increase the lightness, so they are always lighter than 500
+ * - the dark colors (600-950) decrease the lightness, so they are always darker than 500
+ *
+ * because the lightness is always derived relative to the base lightness, the resulting
+ * palette is monotonically ordered for any input color (light steps, then 500, then dark
+ * steps), including extreme light or dark base colors.
+ *
  * @param input - the base color
  * @param [format] - the format of the output color, default is 'oklch'
  * @returns the palette
@@ -56,60 +44,33 @@ export function generatePalette<F extends OutputFormat = 'oklch'>(input: AnyColo
 
   const palette = {} as Record<PaletteColorLevel, OutputColorMap[F]>;
 
-  /**
-   * check if the color is grayish
-   */
-  const isGrayish = baseC < 0.05;
-
-  /**
-   * check if the color is near the red boundary (pink, rose, and other colors near red)
-   */
-  const isNearRedBoundary = baseH > 330 || baseH < 30;
-
   keysOf(paletteScales).forEach($level => {
-    let l = baseL;
-    let c = baseC;
-    let h = baseH;
     const level = Number($level) as PaletteColorLevel;
     const scale = paletteScales[level];
 
+    let l = baseL;
+    let c = baseC;
+    let h = baseH;
+
     if (level < 500) {
       // the light colors (50-400): increase the lightness and decrease the chroma
-      if (isGrayish) {
-        l = lightnessMap[level];
-      } else {
-        // the colors use the relative proportion to calculate the lightness
-        l = 1 - (1 - baseL) * scale.l;
+      l = 1 - (1 - baseL) * scale.l;
 
-        // the hue shift for the light colors
-        const hueShift = getLightHueShift(baseH, scale.l);
-        h = (baseH + hueShift + 360) % 360;
-      }
-
-      c = baseC * scale.c;
+      // the hue shift for the light colors
+      const hueShift = getLightHueShift(baseH, scale.l);
+      h = (baseH + hueShift + 360) % 360;
     }
 
     if (level > 500) {
-      if (isGrayish) {
-        l = darkLightnessMap[level];
+      // the dark colors (600-950): decrease the lightness and increase the chroma
+      l = baseL * scale.l;
 
-        if (isNearRedBoundary && baseH > 330) {
-          // when the color is near the red boundary, shift the hue to the warm color tone
-          const hueShift = (1 - scale.l) * 10;
-          h = (baseH + hueShift) % 360;
-        }
-      } else {
-        l = baseL * scale.l;
-
-        // use the adaptive strategy for the hue shift when the color is not grayish
-        const hueShift = getDarkHueShift(baseH, scale.l);
-        h = (baseH + hueShift + 360) % 360;
-      }
-
-      c = baseC * scale.c;
+      // use the adaptive strategy for the hue shift
+      const hueShift = getDarkHueShift(baseH, scale.l);
+      h = (baseH + hueShift + 360) % 360;
     }
 
-    c = Math.max(0, c);
+    c = Math.max(0, baseC * scale.c);
 
     const oklch = {
       l,
