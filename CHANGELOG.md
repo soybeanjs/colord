@@ -1,5 +1,19 @@
 # Changelog
 
+## [v0.8.1](https://github.com/soybeanjs/colord/compare/v0.8.0...v0.8.1) (2026-09-18)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **palette**: add TailwindChromaticPaletteKey to exports &nbsp;-&nbsp; by @soybeanjs [<samp>(81483)</samp>](https://github.com/soybeanjs/colord/commit/8148358)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **palette**: update oklch values for Tailwind color palette &nbsp;-&nbsp; by @soybeanjs [<samp>(69e13)</samp>](https://github.com/soybeanjs/colord/commit/69e1372)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.8.0](https://github.com/soybeanjs/colord/compare/v0.7.1...v0.8.0) (2026-09-18)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
