@@ -7,6 +7,7 @@ export {
 } from './constant';
 export { generatePalette } from './generate';
 export { generateNearestPalette } from './nearest';
+export { parseTailwindColor } from './parse';
 
 export type {
   PaletteColorLevel,

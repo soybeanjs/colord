@@ -43,9 +43,10 @@ colord('hsl(210.003, 34.547%, 98.004%)').toOklchString(); // 'oklch(98.4% 0.003 
 ## Palette API
 
 ```ts
-import { tailwindPalette, generatePalette, generateNearestPalette } from '@soybeanjs/colord/palette';
+import { generatePalette, generateNearestPalette, parseTailwindColor } from '@soybeanjs/colord/palette';
 
-tailwindPalette.slate['500']; // 'oklch(55.4% 0.046 257.417)'
+parseTailwindColor('slate.500'); // { l: 0.55, c: 0.04, h: 257, alpha: 1 }
+parseTailwindColor('slate.500', 'hex'); // '#64748b'
 generatePalette('red'); // generate the palette of the color 'red'
 generateNearestPalette('red'); // find the nearest color in the palette of the color 'red'
 ```
