@@ -1,5 +1,21 @@
 # Changelog
 
+## [v0.8.0](https://github.com/soybeanjs/colord/compare/v0.7.1...v0.8.0) (2026-09-18)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **palette**:
+  - add TailwindChromaticPaletteKey and update palette constants &nbsp;-&nbsp; by @soybeanjs [<samp>(8edda)</samp>](https://github.com/soybeanjs/colord/commit/8edda99)
+  - add parseTailwindColor function and update imports &nbsp;-&nbsp; by @soybeanjs [<samp>(a0118)</samp>](https://github.com/soybeanjs/colord/commit/a011836)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(67998)</samp>](https://github.com/soybeanjs/colord/commit/6799819)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.7.1](https://github.com/soybeanjs/colord/compare/v0.7.0...v0.7.1) (2026-08-10)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
