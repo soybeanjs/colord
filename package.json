@@ -53,11 +53,11 @@
     "upkg": "soy ncu"
   },
   "devDependencies": {
-    "@soybeanjs/cli": "1.8.2",
-    "@soybeanjs/oxc-config": "^0.2.3",
-    "@types/node": "26.2.0",
+    "@soybeanjs/cli": "1.8.3",
+    "@soybeanjs/oxc-config": "^0.2.6",
+    "@types/node": "26.6.1",
     "typescript": "7.0.2",
     "vite-plus": "catalog:"
   },
-  "packageManager": "pnpm@11.21.0"
+  "packageManager": "pnpm@12.4.2"
 }
