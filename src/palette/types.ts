@@ -49,6 +49,16 @@ export type TailwindNeutralPaletteKey = Extract<
 >;
 
 /**
+ * the tailwind chromatic palette key
+ *
+ * the chromatic palette is used for the chromatic colors, which are usually used for the main colors
+ */
+export type TailwindChromaticPaletteKey = Exclude<
+  TailwindPaletteKey,
+  'slate' | 'mist' | 'gray' | 'zinc' | 'neutral' | 'stone' | 'taupe' | 'olive' | 'mauve'
+>;
+
+/**
  * the tailwind color palette level key
  *
  * the color palette level key is used for the color palette level, which is usually used for the color classes
