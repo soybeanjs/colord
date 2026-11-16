@@ -1,5 +1,20 @@
 # Changelog
 
+## [v0.9.0](https://github.com/soybeanjs/colord/compare/v0.8.2...v0.9.0) (2026-11-16)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **oklab**: capture percent unit in oklab/oklch lightness matchers &nbsp;-&nbsp; by @soybeanjs [<samp>(cb827)</samp>](https://github.com/soybeanjs/colord/commit/cb8271a)
+- **rgb**: parse legacy rgba() and hsla() color syntax &nbsp;-&nbsp; by @soybeanjs [<samp>(9cf4b)</samp>](https://github.com/soybeanjs/colord/commit/9cf4b4a)
+
+### &nbsp;&nbsp;&nbsp;✅ Tests
+
+- add unit tests for models, plugins and palette &nbsp;-&nbsp; by @soybeanjs [<samp>(5a555)</samp>](https://github.com/soybeanjs/colord/commit/5a55593)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.8.2](https://github.com/soybeanjs/colord/compare/v0.8.1...v0.8.2) (2026-11-16)
 
 ### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
