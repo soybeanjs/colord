@@ -79,7 +79,7 @@ export const parseOklab = (input: InputObject): RgbColor | null => {
  * - b: <number>
  * - alpha: <number|percentage>
  */
-const oklabMatcher = /^oklab\(\s*([+-]?[\d.]+)%?\s+([+-]?[\d.]+)\s+([+-]?[\d.]+)(?:\s*\/\s*([+-]?[\d.]+%?))?\s*\)$/i;
+const oklabMatcher = /^oklab\(\s*([+-]?[\d.]+%?)\s+([+-]?[\d.]+)\s+([+-]?[\d.]+)(?:\s*\/\s*([+-]?[\d.]+%?))?\s*\)$/i;
 
 /**
  * Parses a valid OKLAB CSS color function/string to OKLAB object

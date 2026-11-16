@@ -165,7 +165,7 @@ export const parseOklch = (input: InputObject): RgbColor | null => {
  * - alpha: <number|percentage>
  */
 const oklchMatcher =
-  /^oklch\(\s*([+-]?[\d.]+)%?\s+([+-]?[\d.]+)\s+([+-]?[\d.]+)(deg|grad|rad|turn)?(?:\s*\/\s*([+-]?[\d.]+%?))?\s*\)$/i;
+  /^oklch\(\s*([+-]?[\d.]+%?)\s+([+-]?[\d.]+)\s+([+-]?[\d.]+)(deg|grad|rad|turn)?(?:\s*\/\s*([+-]?[\d.]+%?))?\s*\)$/i;
 
 export const parseOriginOklchString = (input: string): OklchColor | null => {
   const match = oklchMatcher.exec(input);
