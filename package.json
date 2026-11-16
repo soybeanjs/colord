@@ -49,6 +49,7 @@
     "lint": "vp lint",
     "publish-pkg": "pnpm publish --access public",
     "release": "soy release",
+    "test": "vp test run",
     "typecheck": "tsc --noEmit --skipLibCheck",
     "upkg": "soy ncu"
   },
