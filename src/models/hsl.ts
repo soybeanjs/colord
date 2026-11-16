@@ -76,7 +76,7 @@ export const rgbToHslString = (rgb: RgbColor): string => {
 };
 
 const hslMatcher =
-  /^hsl?\(\s*([+-]?[\d.]+)(deg|grad|rad|turn)?\s*[, ]\s*([+-]?[\d.]+)%\s*[, ]\s*([+-]?[\d.]+)%(?:\s*\/\s*([+-]?[\d.]+%?))?\s*\)$/i;
+  /^hsla?\(\s*([+-]?[\d.]+)(deg|grad|rad|turn)?\s*[, ]\s*([+-]?[\d.]+)%\s*[, ]\s*([+-]?[\d.]+)%(?:\s*[,/]\s*([+-]?[\d.]+%?))?\s*\)$/i;
 
 export const parseHslString = (input: string): RgbColor | null => {
   const match = hslMatcher.exec(input);

@@ -146,7 +146,7 @@ export function linearRgbToRgb(rgb: RgbColor): RgbColor {
   };
 }
 
-const rgbMatcher = /^rgb?\(\s*([\d.]+%?)\s*[, ]\s*([\d.]+%?)\s*[, ]\s*([\d.]+%?)(?:\s*[,/]\s*([\d.]+%?))?\s*\)$/i;
+const rgbMatcher = /^rgba?\(\s*([\d.]+%?)\s*[, ]\s*([\d.]+%?)\s*[, ]\s*([\d.]+%?)(?:\s*[,/]\s*([\d.]+%?))?\s*\)$/i;
 
 /**
  * Parses a valid RGB[A] CSS color function/string
