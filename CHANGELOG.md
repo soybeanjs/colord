@@ -1,5 +1,20 @@
 # Changelog
 
+## [v0.8.2](https://github.com/soybeanjs/colord/compare/v0.8.1...v0.8.2) (2026-11-16)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **oklab**: scale lightness to percentage in toOklabString &nbsp;-&nbsp; by @soybeanjs [<samp>(d7f6f)</samp>](https://github.com/soybeanjs/colord/commit/d7f6f3a)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(2fa1e)</samp>](https://github.com/soybeanjs/colord/commit/2fa1e1f)
+- **gitattributes**: set text=auto eol=lf &nbsp;-&nbsp; by @soybeanjs [<samp>(a56fc)</samp>](https://github.com/soybeanjs/colord/commit/a56fc11)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.8.1](https://github.com/soybeanjs/colord/compare/v0.8.0...v0.8.1) (2026-09-18)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
